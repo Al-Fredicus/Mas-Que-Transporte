@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,58 +10,61 @@
     <link rel="shortcut icon" href="img/mqtfavicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
 </head>
+
 <body>
-    <header>
-        <div class="cabecera">
-            <div class="logo">
-                <a href="index.html"><img src="img/logo1.svg" alt="MQT"></a>
-                    <div class="textos-head">
-                        <p class="uno"><span class="negrita">Más Que</span> Transporte</p>
-                        <p class="dos"><span class="negrita">Personalizando</span> el Movimiento</p>
-                    </div>
-            </div>
+
+    <section class="navigation">
+        <div class="menu-container">
+            <a class="logo" href="#"><img src="/img/logo1.svg" alt=""></a>
             <nav>
-                <section class="navegacion">
-                    <div class="navegador">
-                        <div class="caja">
-                            <a href="#directos" id="abrir"><img src="img/direct1.svg" alt=""></a>
-                        </div>
-                        <div class="caja">
-                            <a href="#envios" id="abrir"><img src="img/env1.svg" alt=""></a>
-                        </div> 
-                        <div class="caja">
-                            <a href="#logistica-inversa" id="abrir"><img src="img/loginv1.svg" alt=""></a>
-                        </div> 
-                        <div class="caja">
-                            <a href="#aprovisionamiento" id="abrir"><img src="img/apro1.svg" alt=""></a>
-                        </div> 
-                        <div class="caja">
-                            <a href="#distribucion" id="abrir"><img src="img/dist1.svg" alt=""></a>
-                        </div> 
-                        <div class="caja">
-                            <a href="#contacto" id="abrir"><img src="img/contact1.svg" alt=""></a>
-                        </div>                      
-                    </div>
-                </section>
+                <div class="menu-mobile"><a id="menu-toggle"><span></span></a></div>
+                <ul class="navegacion">
+                    <li>
+                        <a href="#directos"><img src="/img/direct1.svg" alt="">
+                            <span class="textos">
+                                <p>Directos</p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#envios"><img src="/img/env1.svg" alt="">
+                            <span class="textos">
+                                <p>Envíos</p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#logistica-inversa"><img src="/img/loginv1.svg" alt="">
+                            <span class="textos">
+                                <p>Logística inversa</p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#aprovisionamiento"><img src="/img/apro1.svg" alt="">
+                            <span class="textos">
+                                <p>Aprovisionamiento</p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#distribucion"><img src="/img/dist1.svg" alt="">
+                            <span class="textos">
+                                <p>Distribución</p>
+                            </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contacto"><img src="/img/contact1.svg" alt="">
+                            <span class="textos">
+                                <p>Contacto</p>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
             </nav>
         </div>
-    </header>
-    <div id="directos" class="modal">
-		<div class="flex" id="flex">
-			<div class="contenido-modal">
-				<div class="modal-header flex">
-					<h2>Directos</h2>
-					<span class="close" id="close">&times;</span>
-				</div>
-				<div class="modal-body">
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nam voluptatum illum temporibus voluptas debitis! Et labore minus praesentium consequuntur mollitia dolores perferendis, voluptas nemo ratione consequatur illum quidem rerum, saepe eveniet ullam eaque quasi neque quo quisquam impedit ducimus voluptatem illo. Quod tenetur aliquam, soluta labore ipsam delectus. Id iusto distinctio minima quaerat nobis asperiores ullam, mollitia illo soluta quisquam natus dicta sint voluptates molestiae! Perferendis quos ea assumenda nulla?</p>			
-				</div>
-				<div class="footer">
-					<h3>Hacemos cosas chulas</h3>
-				</div>
-			</div>
-		</div>
-    </div>
-	<script src="js/main.js"></script>
+    </section>
 </body>
+
 </html>
